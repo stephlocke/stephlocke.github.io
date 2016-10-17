@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steph Locke</title>
+    <link>http://stephlocke.info/tags/vsts/index.xml</link>
+    <description>Recent content on Steph Locke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2016 Stephanie Locke</copyright>
+    <atom:link href="/tags/vsts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>tfsR</title>
+      <link>http://stephlocke.info/project/tfsR/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/tfsR/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

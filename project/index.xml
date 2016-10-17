@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project-rsses on Steph Locke</title>
+    <link>http://stephlocke.info/project/index.xml</link>
+    <description>Recent content in Project-rsses on Steph Locke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2016 Stephanie Locke</copyright>
+    <lastBuildDate>Mon, 17 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Battle of the Beards</title>
+      <link>http://stephlocke.info/project/BattleOfTheBeards/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/BattleOfTheBeards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataOps.info</title>
+      <link>http://stephlocke.info/project/DataOpsInfo/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/DataOpsInfo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GirlsWithDeepPockets.com</title>
+      <link>http://stephlocke.info/project/GirlsWithDeepPockets/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/GirlsWithDeepPockets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HIBPwned</title>
+      <link>http://stephlocke.info/project/HIBPwned/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/HIBPwned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It&#39;s a Locke</title>
+      <link>http://stephlocke.info/project/Blog/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/Blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rtraining</title>
+      <link>http://stephlocke.info/project/SlideDecks/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/SlideDecks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Cardiff</title>
+      <link>http://stephlocke.info/project/SQLCardiff/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/SQLCardiff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tribal SQL</title>
+      <link>http://stephlocke.info/project/TribalSQL/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/TribalSQL/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>caRdiff</title>
+      <link>http://stephlocke.info/project/CaRdiff/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/CaRdiff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diff.Net</title>
+      <link>http://stephlocke.info/project/diffNet/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/diffNet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optiRum</title>
+      <link>http://stephlocke.info/project/optiRum/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/optiRum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>satRdays</title>
+      <link>http://stephlocke.info/project/satRdays/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/satRdays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tfsR</title>
+      <link>http://stephlocke.info/project/tfsR/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/tfsR/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

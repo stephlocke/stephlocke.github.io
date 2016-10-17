@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steph Locke</title>
+    <link>http://stephlocke.info/tags/r/index.xml</link>
+    <description>Recent content on Steph Locke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2016 Stephanie Locke</copyright>
+    <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HIBPwned</title>
+      <link>http://stephlocke.info/project/HIBPwned/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/HIBPwned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rtraining</title>
+      <link>http://stephlocke.info/project/SlideDecks/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/SlideDecks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>caRdiff</title>
+      <link>http://stephlocke.info/project/CaRdiff/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/CaRdiff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optiRum</title>
+      <link>http://stephlocke.info/project/optiRum/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/optiRum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>satRdays</title>
+      <link>http://stephlocke.info/project/satRdays/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/satRdays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tfsR</title>
+      <link>http://stephlocke.info/project/tfsR/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephlocke.info/project/tfsR/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
