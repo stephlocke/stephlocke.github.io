@@ -1,7 +1,22 @@
 a, h3.article-title a:hover {
   color: #90c226;
 }
-
+.navbar-default .navbar-brand {
+	color: white;
+	background-color: #90c226;
+}
+.navbar-header {
+	color: white;
+	background-color: #90c226;
+}
+.navbar-default{
+	color: white;
+	background-color: #90c226;
+}
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:visited {
+  color: white;
+}
 .article-metadata a:hover {
   color: #90c226;
 }
@@ -20,6 +35,8 @@ a, h3.article-title a:hover {
 .navbar-default .navbar-nav li a:hover {
   color: #90c226;
 }
+
+
 html {
   font-family: 'Roboto', sans-serif;
 }
