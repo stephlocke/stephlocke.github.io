@@ -10,11 +10,11 @@
     <atom:link href="/tags/msft-data-platform/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>It&#39;s a Locke</title>
-      <link>http://stephlocke.info/project/Blog/</link>
+      <title>MSFT Stack</title>
+      <link>http://stephlocke.info/project/MSFTStack/</link>
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://stephlocke.info/project/Blog/</guid>
+      <guid>http://stephlocke.info/project/MSFTStack/</guid>
       <description></description>
     </item>
     
@@ -24,15 +24,6 @@
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://stephlocke.info/project/SlideDecks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SQL Cardiff</title>
-      <link>http://stephlocke.info/project/SQLCardiff/</link>
-      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://stephlocke.info/project/SQLCardiff/</guid>
       <description></description>
     </item>
     

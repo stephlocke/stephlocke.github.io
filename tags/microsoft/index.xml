@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steph Locke</title>
-    <link>http://stephlocke.info/tags/user-group/index.xml</link>
+    <link>http://stephlocke.info/tags/microsoft/index.xml</link>
     <description>Recent content on Steph Locke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy; 2016 Stephanie Locke</copyright>
-    <atom:link href="/tags/user-group/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MSFT Stack</title>
@@ -15,15 +15,6 @@
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://stephlocke.info/project/MSFTStack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>caRdiff</title>
-      <link>http://stephlocke.info/project/CaRdiff/</link>
-      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://stephlocke.info/project/CaRdiff/</guid>
       <description></description>
     </item>
     
