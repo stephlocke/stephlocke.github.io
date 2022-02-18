@@ -17,4 +17,4 @@ package-lock.json*
 # Project specific
 public/
 resources/
-**:ZoneIdentifier
+**:Zone.Identifier
