@@ -62,8 +62,9 @@ $text-muted: $gray;
 
 // Dark mode
 $body-bg-inverse: $dark;
-$body-color-inverse: rgba(255, 255, 255, 0.774);
+$body-color-inverse: rgba(255, 255, 255, 0.70);
 $hr-border-color-inverse: $gray;
+$main-menu-hover-bg-inverse: $primary;
 $footer-color-inverse: $gray;
 $footer-bg-inverse: $gray;
 $text-muted-inverse: darken($gray, 20%);
