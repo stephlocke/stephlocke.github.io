@@ -32,8 +32,8 @@ $headings-line-height: 2;
 $amp-grid-gutter-width: 0px;
 
 
-$headingFont: "Zilla Slab", serif;
-$bodyFont: "Zilla Slab", serif;
+$headingFont: "Assistant", sans-serif;
+$bodyFont: "Assistant", serif;
 $font-family-sans-serif: $bodyFont;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace;
@@ -42,7 +42,7 @@ $headings-font-family: $headingFont;
 
 
 // General colours
-$primary: #009688;
+$primary: darken($teal, 10%);
 $amp-theme-colors: (
   "primary": $primary
 );
@@ -54,8 +54,7 @@ $headings-color: $primary;
 $link-color: $primary;
 $link-hover-color: darken($link-color, 15%);
 $hr-border-color: $dark;
-$main-menu-hover-color: $dark;
-$main-menu-hover-mobile-color: $dark;
+$main-menu-hover-bg: $primary;
 $footer-color: $gray;
 $footer-bg: $dark;
 $enable-amp-margin-and-bottom: true;
@@ -65,8 +64,6 @@ $text-muted: $gray;
 $body-bg-inverse: $dark;
 $body-color-inverse: $gray;
 $hr-border-color-inverse: $gray;
-$main-menu-hover-color-inverse: $dark;
-$main-menu-hover-mobile-color-inverse: $dark;
 $footer-color-inverse: $gray;
 $footer-bg-inverse: $gray;
 $text-muted-inverse: darken($gray, 20%);
