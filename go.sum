@@ -24,3 +24,5 @@ github.com/stephlocke/slamp v0.0.0-20220220123641-be3a7e49cb9c h1:I2lQBqB2oh9s8V
 github.com/stephlocke/slamp v0.0.0-20220220123641-be3a7e49cb9c/go.mod h1:gaaV2xmpUlk13Nemwxbv7esZTomXqtDTx93QjnaHYYc=
 github.com/stephlocke/slamp v0.0.0-20220224193235-ca426fb8cea8 h1:wH0KwwZhRSO4kL2qUjrUzndgzSYoJk8xC+oInYY/0BA=
 github.com/stephlocke/slamp v0.0.0-20220224193235-ca426fb8cea8/go.mod h1:dhLgbYRipp/e3aLD1/mpBWJsLVpFwNh5S6REA/Yc4FM=
+github.com/stephlocke/slamp v0.0.0-20220406184934-e14707bd4bb6 h1:71ZPeFgXcaUePUMZJTZeH/hp/R5qPIL9AEWG0d5Ey+M=
+github.com/stephlocke/slamp v0.0.0-20220406184934-e14707bd4bb6/go.mod h1:dhLgbYRipp/e3aLD1/mpBWJsLVpFwNh5S6REA/Yc4FM=
