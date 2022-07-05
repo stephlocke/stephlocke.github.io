@@ -22,8 +22,8 @@ socialProfiles = ["https://twitter.com/theStephLocke","https://www.linkedin.com/
 ampElements = [ "amp-install-serviceworker"]
 scss = ["custom.scss"]
 homepageActiveSections= ["/resume"]
-homepageLatestSections= ["/blog","/otherblogs","/press","/publications"]
-showcase = 3
+homepageLatestSections= ["/blog","/presenting","/otherblogs","/press","/publications"]
+showcase = 2
 [params.ogp]
 image = "img/NHQlogoborderless.png"
 description = "Steph Locke"
