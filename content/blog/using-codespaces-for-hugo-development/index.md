@@ -20,7 +20,7 @@ First of all there was a button that said simply `Create codespace on main` and 
     amp-image src="default_codespace.png"
     height="90"
     width="160"
-    layout="relative"
+    layout="responsive"
     alt="Screenshot of VS Code in browser thanks to GitHub Codespace"
 >}}
 
@@ -40,7 +40,7 @@ There is now a Ports tab available where I can see it active and it gave me a po
     amp-image src="running_hugo.png"
     height="90"
     width="160"
-    layout="relative"
+    layout="responsive"
     alt="Screenshot of VS Code in browser with a popup offering to open the Hugo site"
 >}}
 
@@ -50,7 +50,7 @@ Brilliant, it worked. Browsing to my site I can see it's generated the blog post
     amp-image src="localhost_issue.png"
     height="90"
     width="160"
-    layout="relative"
+    layout="responsive"
     alt="Screenshot of browser showing Edge's DevTools Inspect results on the left hand side and the blog on the right hand side with an empty space where an image should be"
 >}}
 
