@@ -20,3 +20,4 @@ resources/
 **:Zone.Identifier
 
 f/*
+.hugo_build.lock
