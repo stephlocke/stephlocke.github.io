@@ -12,7 +12,7 @@ In this blog post, I try using [Github Codespaces](https://docs.github.com/en/co
 
 A GitHub Codespace is a cloud based developer environment attached to your GitHub repository. It contains the necessary dependencies to be able to work on your codebase in VS Code (in-browser or you can connect from your desktop!) and then commit your code. Having a Codespace means never having to get all those pesky project dependencies set up on your computer AND it means you're always working from a clean environment so "Works on my machine" should be a thing of the past! Awesome, right?!
 
-So now that I have the ability to create a Codespace I figured I'd give it a go rather than installing Hugo on my new work machine, git cloning, and so on. I also opted to not read the docs which not my usual approach but I thought this stuff was intended to be easy so I figured I'd give it a go! 
+So now that I have the ability to create a Codespace I figured I'd give it a go rather than installing Hugo on my new work machine, git cloning, and so on. I also opted to not read the docs to see if it really was as easy as the marketing said it was! 
 
 First of all there was a button that said simply `Create codespace on main` and I thought "Nah, it can't be that simple right?". I figured I'd need to take the `Configure and create codespace` option instead to get into to telling it to install Hugo etc. Well this took me to a wizard that gave me only a few options (branch, region, and machine type) and all of it was set appropriately so I pressed `Create codespace` and away I went. It took less than a minute and then I was looking at VS Code in the browser!
 
