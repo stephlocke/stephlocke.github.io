@@ -22,7 +22,7 @@
 <meta property="og:author" content="Steph Locke">
 <meta property="article:author" content="Steph Locke">
 <meta property="article:published_time" content="2022-07-05 09:00:00 +0000 UTC">
-<meta property="article:modified_time" content="2022-07-05 11:30:55 +0100 +0100">
+<meta property="article:modified_time" content="2022-07-05 11:34:56 +0100 +0100">
 <meta property="article:expiration_time" content>
 <meta property="article:tag" content="Hugo, GitHub, Codespaces, Developer Velocity">
 <meta property="article:section" content><amp-install-serviceworker src=https://stephlocke.info/sw.js data-iframe-src=https://stephlocke.info/install-sw.html layout=nodisplay>
@@ -110,8 +110,8 @@ CV
 <amp-img src=localhost_issue.png alt="Screenshot of browser showing Edge's DevTools Inspect results on the left hand side and the blog on the right hand side with an empty space where an image should be " width=160 height=90 layout=responsive>
 </amp-img>
 <p>This is a bit of a hiccup but this is to do with my love of generating absolute URLs versus relative URLs and Hugo starting with the default base URL of <code>http://localhost:1313</code>. Let&rsquo;s see if I can change that to the URL of the preview page Codespace generated (<code>stephlocke-stephlocke-github-io-wrggw7rjh6g9-1313.githubpreview.dev</code>).</p>
-<p>I&rsquo;ve just run <code>hugo serve -b https://stephlocke-stephlocke-github-io-wrggw7rjh6g9-1313.githubpreview.dev</code> and it worked! Well sort of. 🤔 Unfortunately, Hugo is still injecting the port into some URLs and it isn&rsquo;t something I can just use the terminal to get around. It&rsquo;s down to how I&rsquo;ve coded the shortcodes and partials in Hugo. I&rsquo;m using a Hugo modules to bring in the theme, I&rsquo;m not able to easily edit the theme like I would if it was a git submodule or something I kept in the repo. I guess tidying the theme up whilst in Codepaces is a topic for a future blog post.</p>
-<p>For now though, I&rsquo;m able to get started with Hugo in-browser in less than a minute making it so that I can author new content much more easily. Hopefully, that&rsquo;ll mean I blog more! It was incredibly simple to get up and running with the only real change I had to make to accomodate my specific blog setup was to change the base URL when serving the Hugo site. It&rsquo;s really quite amazing how easy it all was.</p>
+<p>I&rsquo;ve just run <code>hugo serve -b https://stephlocke-stephlocke-github-io-wrggw7rjh6g9-1313.githubpreview.dev</code> and it worked! Well sort of. 🤔 Unfortunately, Hugo is still injecting the port into some URLs and it isn&rsquo;t something I can just use the terminal to get around. It&rsquo;s down to how I&rsquo;ve coded the shortcodes and partials in Hugo. I&rsquo;m using Hugo modules to bring in the theme so I&rsquo;m not able to edit the theme as easily as I would if it was a git submodule or something I kept in the repo. I guess tidying the theme up whilst in Codepaces is a topic for a future blog post.</p>
+<p>For now though, I&rsquo;m able to get started with Hugo in-browser in less than a minute making it so that I can author new content much more easily. 😍 Hopefully, that&rsquo;ll mean I blog more! It was incredibly simple to get up and running with the only real change I had to make to accomodate my specific blog setup was to change the base URL when serving the Hugo site. It&rsquo;s really quite amazing how easy it all was.</p>
 <p>Thank you for reading this text-based live stream of me trying out this snazzy new tool. 🙏</p>
 </div>
 </div>
