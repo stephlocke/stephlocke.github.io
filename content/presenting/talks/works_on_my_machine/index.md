@@ -11,6 +11,8 @@ Between spending hours (or days!) making sure you can code and test locally and 
 
 ## Slides
 {{< amp-iframe 
+    height=250
+    width=500
     src="https://www.slideshare.net/slideshow/embed_code/key/GQCmYsElRTCw1Z?hostedIn=slideshare&page=upload" 
     layout="responsive" 
     sandbox="allow-scripts allow-same-origin" 

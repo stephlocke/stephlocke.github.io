@@ -11,6 +11,8 @@ Too often, we chuck talented technologists into a promotion to the role of team 
 
 ## Slides
 {{< amp-iframe 
+    height=250
+    width=500
     src="https://www.slideshare.net/slideshow/embed_code/key/ibHtCY2qhoeJkn?hostedIn=slideshare&page=upload" 
     layout="responsive" 
     sandbox="allow-scripts allow-same-origin" 

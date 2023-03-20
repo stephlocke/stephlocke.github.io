@@ -15,6 +15,8 @@ With more than a decade of organisations running large data & analytics workload
 
 ## Slides
 {{< amp-iframe 
+    height=250
+    width=500
     src="https://www.slideshare.net/slideshow/embed_code/key/LC14uUcQX0dlfK" 
     layout="responsive" 
     sandbox="allow-scripts allow-same-origin" 

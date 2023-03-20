@@ -12,6 +12,8 @@ Join Steph and Chris as they run through Microsoft's transformation from shippin
 
 ## Slides
 {{< amp-iframe 
+    height=250
+    width=500
     src="https://www.slideshare.net/slideshow/embed_code/key/usBNbbS5QAKdCC" 
     layout="responsive" 
     sandbox="allow-scripts allow-same-origin" 
