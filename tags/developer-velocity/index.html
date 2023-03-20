@@ -6,7 +6,7 @@
 <link rel=sitemap href=https://stephlocke.info/sitemap.xml type=application/xml>
 <link rel=alternate type=application/rss+xml href=https://stephlocke.info/tags/developer-velocity/index.xml title="Steph Locke">
 <meta name=description content>
-<meta name=keywords content="Analytics,blogging,career,Cloud,Codespaces,Data,Developer Velocity,DevOps,GitHub,Hugo,ML,Presenting,remote work,Teams,Well Architected Framework,">
+<meta name=keywords content="Analytics,Azure Functions,Azure SQL,blogging,career,Cloud,Codespaces,Culture,Data,Data Engineering,Data Integration,Developer Velocity,DevOps,ETL,GitHub,Github Codespaces,Github Copilot,Hugo,Management,ML,Presenting,remote work,Teams,Well Architected Framework,">
 <meta name=author content="Steph Locke">
 <meta property="og:title" content="Developer Velocity">
 <meta property="og:description" content>
@@ -22,10 +22,10 @@
 <meta property="og:locale" content="en_GB">
 <meta property="og:author" content="Steph Locke">
 <meta property="article:author" content="Steph Locke">
-<meta property="article:published_time" content="2022-07-05 09:00:00 +0000 UTC">
-<meta property="article:modified_time" content="2022-07-05 15:53:41 +0000 UTC">
+<meta property="article:published_time" content="2022-09-02 09:00:00 +0000 UTC">
+<meta property="article:modified_time" content="2023-03-20 18:41:14 +0000 UTC">
 <meta property="article:expiration_time" content>
-<meta property="article:tag" content="Analytics,blogging,career,Cloud,Codespaces,Data,Developer Velocity,DevOps,GitHub,Hugo,ML,Presenting,remote work,Teams,Well Architected Framework,">
+<meta property="article:tag" content="Analytics,Azure Functions,Azure SQL,blogging,career,Cloud,Codespaces,Culture,Data,Data Engineering,Data Integration,Developer Velocity,DevOps,ETL,GitHub,Github Codespaces,Github Copilot,Hugo,Management,ML,Presenting,remote work,Teams,Well Architected Framework,">
 <meta property="article:section" content><amp-install-serviceworker src=https://stephlocke.info/sw.js data-iframe-src=https://stephlocke.info/install-sw.html layout=nodisplay>
 </amp-install-serviceworker>
 <meta name=theme-color content="#009688">
@@ -43,7 +43,7 @@
 <body><amp-install-serviceworker src=https://stephlocke.info/sw.js data-iframe-src=https://stephlocke.info/install-sw.html layout=nodisplay>
 </amp-install-serviceworker>
 <script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/stephlocke.info","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/stephlocke.info\/tags\/","name":"Tags"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/stephlocke.info\/tags\/developer-velocity\/","name":"Developer velocity"}}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":"1","url":"https:\/\/stephlocke.info\/blog\/using-codespaces-for-hugo-development\/","name":"Using GitHub Codespaces for Hugo development"},{"@type":"ListItem","position":"2","url":"https:\/\/stephlocke.info\/presenting\/talks\/developer_velocity\/","name":"Developer Velocity"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":"1","url":"https:\/\/stephlocke.info\/presenting\/talks\/works_on_my_machine\/","name":"Let’s banish \u0022it works on my machine\u0022"},{"@type":"ListItem","position":"2","url":"https:\/\/stephlocke.info\/blog\/using-codespaces-for-hugo-development\/","name":"Using GitHub Codespaces for Hugo development"},{"@type":"ListItem","position":"3","url":"https:\/\/stephlocke.info\/presenting\/talks\/developer_velocity\/","name":"Developer Velocity"}]}</script>
 <header class="mega-menu full-width sticky-top">
 <div class=container-fluid>
 <div class=row>
@@ -71,13 +71,13 @@ Blog
 </a>
 </li>
 <li class=main-menu-left>
-<a href=/resume/ title=CV>
-CV
+<a href=/presenting/ title=Presenting>
+Presenting
 </a>
 </li>
 <li class=main-menu-left>
-<a href=/presenting/ title=Presenting>
-Presenting
+<a href=/resume/ title=CV>
+CV
 </a>
 </li>
 </ul>
@@ -95,6 +95,21 @@ Presenting
 </div>
 <div class=container>
 <div class="row py-3">
+<div class=col-lg-6>
+<div class="card mb-3 mx-3">
+<amp-img class=card-img-top src=https://stephlocke.info/presenting/talks/works_on_my_machine/OpeningSlide.png srcset="https://stephlocke.info/presenting/talks/works_on_my_machine/OpeningSlide_hu178c3b52f67811c6a7c780c74f3d2a5a_249710_3daee7a8586866c60732fa3f4822922c.webp 1200w,
+https://stephlocke.info/presenting/talks/works_on_my_machine/OpeningSlide_hu178c3b52f67811c6a7c780c74f3d2a5a_249710_a21a846028d33f4430fbcb43b658ead2.webp 800w,
+https://stephlocke.info/presenting/talks/works_on_my_machine/OpeningSlide_hu178c3b52f67811c6a7c780c74f3d2a5a_249710_cac0980a93fc182ca7b7be986fd26e74.webp 640w,
+https://stephlocke.info/presenting/talks/works_on_my_machine/OpeningSlide_hu178c3b52f67811c6a7c780c74f3d2a5a_249710_2dbca9730774d456f62bce760b230be2.webp 480w,
+https://stephlocke.info/presenting/talks/works_on_my_machine/OpeningSlide_hu178c3b52f67811c6a7c780c74f3d2a5a_249710_92a6e80fa15ca20be25803fe2f4a6098.webp 320w" width=400 height=300 layout=intrinsic title=OpeningSlide.png alt=OpeningSlide.png>
+</amp-img>
+<div class=card-body>
+<h3 class=card-title>Let’s banish "it works on my machine"</h3>
+<p class=card-text>Session description Between spending hours (or days!) making sure you can code and test locally and the difficulties of keeping remote environments up …</p>
+<a class=card-link href=https://stephlocke.info/presenting/talks/works_on_my_machine/ title='Let’s banish "it works on my machine"'>More</a>
+</div>
+</div>
+</div>
 <div class=col-lg-6>
 <div class="card mb-3 mx-3">
 <amp-img class=card-img-top src=https://stephlocke.info/blog/using-codespaces-for-hugo-development/default_codespace.png srcset="https://stephlocke.info/blog/using-codespaces-for-hugo-development/default_codespace_hud4509a2eb872aeace14db45b48ecd676_535900_2c715325e096dc12d7843c67651ffe09.webp 1200w,
@@ -155,15 +170,15 @@ https://stephlocke.info/presenting/talks/developer_velocity/600_503484640_hu0a78
 <h3>Core</h3>
 <ul class=list-unstyled>
 <li class=list-unstyled-item> <a href=/blog/>Blog</a></li>
-<li class=list-unstyled-item> <a href=/resume/>CV</a></li>
 <li class=list-unstyled-item> <a href=/presenting/>Presenting</a></li>
+<li class=list-unstyled-item> <a href=/resume/>CV</a></li>
 </ul>
 </div>
 </div>
 <div class=row>
 <div class="col text-white">
 <p>🍪 This site does not use any cookies</p>
-<p>© Stephanie Locke 2022 all rights reserved.</p>
+<p>© Stephanie Locke 2023 all rights reserved.</p>
 </div>
 </div>
 </div>
