@@ -21,4 +21,4 @@ With more than a decade of organisations running large data & analytics workload
 >}}
 
 ## Presentation history
-- [June 27th 2022 @ DEDAG](https://dedag.io/event-the-microsoft-well-architected-framework-for-data-analytics/)
+- [June 27th 2022 @ DEDAG with Steve Morgan](https://dedag.io/event-the-microsoft-well-architected-framework-for-data-analytics/)

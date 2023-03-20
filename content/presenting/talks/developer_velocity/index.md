@@ -21,4 +21,4 @@ Join Steph and Chris as they run through Microsoft's transformation from shippin
 {{< amp-youtube width="480" height="270" layout="responsive" video="d_4i0lxKtr0" >}}
 
 ## Presentation history
-- [May 4th 2022 @ Hybrid Virtual Group](https://www.meetup.com/hybrid-virtual-group/)
+- [May 4th 2022 @ Hybrid Virtual Group with Chris Reddington](https://www.meetup.com/hybrid-virtual-group/)
