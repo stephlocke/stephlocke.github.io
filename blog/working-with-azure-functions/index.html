@@ -22,7 +22,7 @@
 <meta property="og:author" content="Steph Locke">
 <meta property="article:author" content="Steph Locke">
 <meta property="article:published_time" content="2023-03-21 09:00:00 +0000 UTC">
-<meta property="article:modified_time" content="2023-03-21 18:24:08 +0000 UTC">
+<meta property="article:modified_time" content="2023-03-21 18:28:41 +0000 UTC">
 <meta property="article:expiration_time" content>
 <meta property="article:tag" content="Azure Functions, Azure, Serverless">
 <meta property="article:section" content><amp-install-serviceworker src=https://stephlocke.info/sw.js data-iframe-src=https://stephlocke.info/install-sw.html layout=nodisplay>
@@ -118,7 +118,7 @@ CV
 <h2 id=streamlining-connections-and-improving-security>Streamlining connections and improving security</h2>
 <p>Managing connection strings and keeping passwords is both a pain and a risk! Instead we can use <a href=https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/>Managed Identities</a> (basically service principals but cooler) to authenticate securely against downstream connections and even to communicate with the Functions themselves.</p>
 <p>For working with data sources that don&rsquo;t have Managed Identity, you can store secrets in <a href=https://learn.microsoft.com/en-us/azure/key-vault/>Azure Key Vault</a>, include a <a href="https://learn.microsoft.com/en-us/azure/app-service/app-service-key-vault-references?toc=%2Fazure%2Fazure-functions%2Ftoc.json&tabs=azure-cli">reference to the Key Vault secret in app settings</a>, and then have the Function communicate with Key Vault and authenticating with it&rsquo;s Managed Identity.</p>
-<p>To leverage Managed Identity connectivity to different data sources like CosmosDB you will need to use <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-versions?tabs=v4&pivots=programming-language-csharp">v4</a> versions of the associated packages. Note that at this point in time (21st March 2023) that VS Code and Azure Functions Core Tools heavily preference making v4 a little awkward to initially code if you&rsquo;re not the most comfortable programmer.</p>
+<p>To leverage Managed Identity connectivity to different data sources like CosmosDB you will need to use <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-versions?tabs=v4&pivots=programming-language-csharp">v4</a> versions of the associated packages. Note that at this point in time (21st March 2023) that VS Code and Azure Functions Core Tools heavily preference v3 libraries, making v4 a little awkward to initially code if you&rsquo;re not the most comfortable programmer.</p>
 <p>I firmly believe in CODING ALL THE THINGS! To that point, I recommend you use <a href=https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code>Infrastructre as Code</a> (IaC) to create the resources of your Azure environment and even assign access rights to the Azure Function. <a href=https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/>Bicep</a> is currently my IaC tool of choice.</p>
 <p>To do this, as well as resource creation, we can perform role assignments for the Azure Function app&rsquo;s Managed Identity.</p>
 <pre tabindex=0><code class=language-bicep data-lang=bicep>param principalId string
