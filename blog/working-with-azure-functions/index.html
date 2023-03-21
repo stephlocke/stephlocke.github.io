@@ -22,7 +22,7 @@
 <meta property="og:author" content="Steph Locke">
 <meta property="article:author" content="Steph Locke">
 <meta property="article:published_time" content="2023-03-21 09:00:00 +0000 UTC">
-<meta property="article:modified_time" content="2023-03-21 16:46:41 +0000 UTC">
+<meta property="article:modified_time" content="2023-03-21 18:24:08 +0000 UTC">
 <meta property="article:expiration_time" content>
 <meta property="article:tag" content="Azure Functions, Azure, Serverless">
 <meta property="article:section" content><amp-install-serviceworker src=https://stephlocke.info/sw.js data-iframe-src=https://stephlocke.info/install-sw.html layout=nodisplay>
@@ -99,25 +99,27 @@ CV
 <div class=col>
 <p>This post is an overview of Azure Functions based on the session &ldquo;Working with data using Azure Functions&rdquo; that was first delivered at SQLBits with Liam Moat. See the slides for the session at <a href=../../presenting/talks/working_with_data_using_azure_functions/>Talks/Working with data using Azure Functions</a>.</p>
 <h2 id=what-are-azure-functions>What are Azure Functions?</h2>
-<p>Azure Functions are one of the latest abstractions away from needing to define everything yourself when performing activities using software.</p>
-<p>First we abstracted away from the physical server to the virtual, then started using Platform as a Service or containerising code to run in the cloud. Now we have the ability to run code without needing to worry about the underlying infrastructure.</p>
-<p>The current level of abstraction is called serverless. Serverless means no infrastructure management, event-driven scalabity, and a pay-per-use model. Azure Functions, AWS Lambda, and similar are part of Functions as a Service (FaaS). These Functions usually have a single responsibility, are short-lived, stateless, and, most commonly, are event-driven.</p>
+<p><a href=https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview>Azure Functions</a> are one of the latest abstractions away from needing to define everything yourself when performing activities using software.</p>
+<p>First we abstracted away from the physical server to the virtual, then started using <a href=https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree>Platform as a Service</a> (PaaS) or containerising code to run in the cloud. Now we have the ability to run code without needing to worry about the underlying infrastructure.</p>
+<p>The current level of abstraction is called <a href=https://azure.microsoft.com/en-gb/solutions/serverless/>serverless</a>. Serverless means no infrastructure management, event-driven scalabity, and a pay-per-use model. Azure Functions, AWS Lambda, and similar are part of <a href=https://learn.microsoft.com/en-us/azure/architecture/serverless/code>Functions as a Service</a> (FaaS). These Functions usually have a single responsibility, are short-lived, stateless, and, most commonly, are event-driven.</p>
 <p>Azure Functions include an integrated programming model that handles things like triggers, has robust tooling support, can be hosted in many ways, and is an incredibly cost-efficient choice for many workloads.</p>
+<h2 id=getting-started-with-azure-functions>Getting started with Azure Functions</h2>
+<p>Before the end of April 2023, you can <a href=https://aka.ms/sqlbits-dwf>enter our Azure Functions Cloud Skills Challenge</a> to work through great Microsoft content on this topic. After April, you will be able to access the <a href=https://learn.microsoft.com/en-us/users/stephlocke-1889/collections/3gm0ij7jznwpk2>learning path</a> but you won&rsquo;t get as much kudos. 😉</p>
 <h2 id=anatomy-of-a-function>Anatomy of a Function</h2>
-<p>An Azure Function has a few key components:</p>
+<p>An Azure Function has a few <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp">key components</a>:</p>
 <ul>
 <li>A trigger that causes the Function to execute. This could be a timer, an event, or a remote request for it run</li>
-<li>0 or more inputs that fetch data from different sources like CosmosDB or Azure Table storage</li>
-<li>0 or more outputs that send data to different destinations like Azure EventHubs or Azure SQL</li>
+<li>0 or more inputs that fetch data from different sources like <a href=https://learn.microsoft.com/en-us/azure/cosmos-db/>CosmosDB</a> or <a href=https://learn.microsoft.com/en-us/azure/storage/tables/>Azure Table storage</a></li>
+<li>0 or more outputs that send data to different destinations like <a href=https://learn.microsoft.com/en-us/azure/event-hubs/>Azure Event Hubs</a> or <a href="https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql">Azure SQL</a></li>
 </ul>
 <amp-img src=AnatomyOfAFunction.png width=300 height=150 layout=responsive>
 </amp-img>
-<p>Behind the scenes, there will be helper files that include dependencies, configuration settings, and other things that are needed to run the Function. Multiple functions can be helped in a single project making it easy to deploy and manage related Functions.</p>
+<p>Behind the scenes, there will be helper files that include dependencies, <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal#settings">configuration settings</a>, and other things that are needed to run the Function. Multiple functions can be helped in a single project making it easy to deploy and manage related Functions.</p>
 <h2 id=streamlining-connections-and-improving-security>Streamlining connections and improving security</h2>
-<p>Managing connection strings and keeping passwords is both a pain and a risk! Instead we can use Managed Identities (basically service principals) to authenticate securely against downstream connections and even to communicate with the Functions themselves.</p>
-<p>For working with data sources that don&rsquo;t have Managed Identity, you can store secrets in Azure Key Vault, include a reference to the Key Vault secret in app settings, and then have the Function communicate with Key Vault and authenticating with it&rsquo;s Managed Identity.</p>
-<p>To leverage Managed Identity connectivity to different data sources like CosmosDB you will need to use v4 versions of the associated packages. Note that at this point in time (21st March 2023) that VS Code and Azure Functions Core Tools heavily preference making v4 a little awkward to initially code if you&rsquo;re not the most comfortable programmer.</p>
-<p>I firmly believe in CODING ALL THE THINGS! To that point, I recommend you use Infrastructre as Code (IaC) to create the resources of your Azure envirnment and even assign access rights to the Azure Function.</p>
+<p>Managing connection strings and keeping passwords is both a pain and a risk! Instead we can use <a href=https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/>Managed Identities</a> (basically service principals but cooler) to authenticate securely against downstream connections and even to communicate with the Functions themselves.</p>
+<p>For working with data sources that don&rsquo;t have Managed Identity, you can store secrets in <a href=https://learn.microsoft.com/en-us/azure/key-vault/>Azure Key Vault</a>, include a <a href="https://learn.microsoft.com/en-us/azure/app-service/app-service-key-vault-references?toc=%2Fazure%2Fazure-functions%2Ftoc.json&tabs=azure-cli">reference to the Key Vault secret in app settings</a>, and then have the Function communicate with Key Vault and authenticating with it&rsquo;s Managed Identity.</p>
+<p>To leverage Managed Identity connectivity to different data sources like CosmosDB you will need to use <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-versions?tabs=v4&pivots=programming-language-csharp">v4</a> versions of the associated packages. Note that at this point in time (21st March 2023) that VS Code and Azure Functions Core Tools heavily preference making v4 a little awkward to initially code if you&rsquo;re not the most comfortable programmer.</p>
+<p>I firmly believe in CODING ALL THE THINGS! To that point, I recommend you use <a href=https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code>Infrastructre as Code</a> (IaC) to create the resources of your Azure environment and even assign access rights to the Azure Function. <a href=https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/>Bicep</a> is currently my IaC tool of choice.</p>
 <p>To do this, as well as resource creation, we can perform role assignments for the Azure Function app&rsquo;s Managed Identity.</p>
 <pre tabindex=0><code class=language-bicep data-lang=bicep>param principalId string
 
@@ -150,7 +152,7 @@ resource roleAssignment 'Microsoft.Authorization/roleAssignments@2020-04-01-prev
   }
 }
 </code></pre><p>(src: <a href=https://github.com/stephlocke/working-with-data-using-azure-functions/blob/main/bicep/modules/functionApp.bicep>functionApp.bicep</a>)</p>
-<p>We can use the v4 connection string approach to reference the different resources in the app settings.</p>
+<p>We can use the <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger?tabs=in-process%2Cfunctionsv2&pivots=programming-language-csharp#connections">v4 connection string</a> approach to reference the different resources in the app settings.</p>
 <pre tabindex=0><code class=language-bicep data-lang=bicep>resource functionApp 'Microsoft.Web/sites@2021-03-01' = {
   name: functionAppName
   location: location
@@ -210,7 +212,7 @@ resource roleAssignment 'Microsoft.Authorization/roleAssignments@2020-04-01-prev
   }
 }
 </code></pre><p>(src: <a href=https://github.com/stephlocke/working-with-data-using-azure-functions/blob/main/bicep/modules/functionApp.bicep>functionApp.bicep</a>)</p>
-<p>The specific functions then refer to simplified connections when mapping to triggers, inputs, and outputs. Inb the example below &ldquo;CorpDB&rdquo; is used instead of &ldquo;CorpDB__accountEndpoint&rdquo;.</p>
+<p>The specific functions then refer to simplified connections when mapping to triggers, inputs, and outputs. In the example below <code>CorpDB</code> is used instead of <code>CorpDB__accountEndpoint</code>.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=color:#66d9ef>namespace</span> SQLBitsDemo.Functions.Cosmos
 {
     <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>CosmosOutputTest</span>
@@ -224,7 +226,7 @@ resource roleAssignment 'Microsoft.Authorization/roleAssignments@2020-04-01-prev
 </span><span style=color:#a6e22e>                Connection = &#34;CorpDB&#34;)]</span>IAsyncCollector&lt;Person&gt; people,
             ILogger log)
         {
-</code></pre></div><h2 id=getting-started-with-azure-functions>Getting started with Azure Functions</h2>
+</code></pre></div><h2 id=recap-getting-started-with-azure-functions>Recap: Getting started with Azure Functions</h2>
 <p>Before the end of April 2023, you can <a href=https://aka.ms/sqlbits-dwf>enter our Azure Functions Cloud Skills Challenge</a> to work through great Microsoft content on this topic. After April, you will be able to access the <a href=https://learn.microsoft.com/en-us/users/stephlocke-1889/collections/3gm0ij7jznwpk2>learning path</a> but you won&rsquo;t get as much kudos. 😉</p>
 </div>
 </div>
