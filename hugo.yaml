@@ -69,31 +69,34 @@ params:
     enable: true
     title: "Key roles"
     items:
-    - job: "Chair"
-      company: "Nightingale HQ"
-      date: "2022 - CURRENT"
-      content: "Acting in a governance and oversight role for Nightingale HQ, helping it transition to a primarily services business supporting manufacturers in their digital transformation and data journeys."
-
-    - job: "Manager, Pre-sales engineering for UK Enterprises, Digital & App Innovation"
+    - job: "Leader of technical teams for UK Enterprise Digital & App Innovation customers"
       company: "Microsoft"
-      date: "JULY 2023 - APRIL 2025"
-      content: "Led a team of 15 pre-sales engineers in developing AI applications and modernisation solutions using the Microsoft technology stack for the UK’s largest organisations. Collaborated cross-functionally and across geographies with various levels of leadership to design and implement strategic sales initiatives and optimise internal processes. Served as a technical expert on AI and application topics for my team, key customers, and the broader technical community."
+      date: "March 2022 - April 2025"
+      content: |-
+        ##### Leader, Pre-sales engineering for UK Enterprise
+        Led a team of 15 pre-sales engineers in developing AI applications and modernisation solutions using the Microsoft technology stack for the UK's largest organisations.
+        Collaborated cross-functionally and across geographies with various levels of leadership to design and implement strategic sales initiatives and optimise internal processes. Served as a technical expert on AI and application topics for my team, key customers, and the broader technical community.
 
-    - job: "Manager, Customer Success for UK Industrials, Digital & App Innovation"
-      company: "Microsoft"
-      date: "MARCH 2022 - JULY 2023"
-      content: "Led a team of cloud solution architects in designing and implementing intelligent applications and software projects. Collaborated with the UK Digital & App Innovation leadership team to transition enterprise projects to delivery, optimising customer use of their teams, partners, and Microsoft tech stack."
-
-    - job: "CEO"
+        ##### Manager, Customer Success for UK Industrials
+        Led a team of 18 cloud solution architects in designing and implementing intelligent applications and software projects. 
+        Collaborated with the UK Digital & App Innovation leadership team to transition enterprise projects to delivery, optimising customer use of their teams, partners, and Microsoft tech stack.
+    - job: "Founder and Chair"
       company: "Nightingale HQ"
-      date: "2019 - 2022"
-      content: "Created and grew a startup building digital transformation programmes and no-code AI-driven process products for the manufacturing space. Led the team and drove the technology strategy and implementation, as well as collaborating with customers, VCs, etc. to communicate our vision and deliver impact."
+      date: "2019 - CURRENT"
+      content: |-
+        ##### Chair
+        Acting in a governance and oversight role for Nightingale HQ, helping it transition to a primarily services business supporting manufacturers in their digital transformation and data journeys.
+        ##### CEO
+        Created and grew a startup building digital transformation programmes and no-code AI-driven process products for the manufacturing space. Led the team and drove the technology strategy and implementation, as well as collaborating with customers, VCs, etc. to communicate our vision and deliver impact.
 
     - job: "CEO"
       company: "Locke Data"
       date: "2017 - 2022"
       content: "Grew a boutique, international consultancy, supporting organisations in delivering data science programmes. Assisting with everything from defining strategy and governance, through to productionising and scaling machine learning models."
-
+    - job: "Non-Executive Director"
+      company: "SQL Saturday Foundation"
+      date: "2021 - CURRENT"
+      content: "Support governance and compliance for the cofnrence brand SQL Saturday"
     - job: "Data Science and Business Intelligence roles"
       company: "Others"
       date: "PRIOR"
