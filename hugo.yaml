@@ -1,0 +1,171 @@
+baseURL: 'https://stephlocke.com'
+title: 'Steph Locke'
+DefaultContentLanguage: "en"
+languageCode: 'en-gb'
+enableEmoji: "true"
+enableInlineShortcodes: "true"
+enableGitInfo: "true"
+assetDir: "assets"
+params:
+  author: "Steph Locke"
+  sitename: "Steph Locke"
+  title: "Steph Locke"
+  description: "Steph Locke's personal website"
+  favicon: "../../icons/sl.png"
+  theme:
+    defaultTheme: "dark"
+  animate: true
+  color:
+    primaryColor: "#009688"
+    darkmode:
+    primaryColor: "#009688"
+  navbar:
+    brandLogo: "../../icons/sl.png"
+    brandName: "Steph Locke"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp: true
+  hero:
+    enable: true
+    intro: "Hi, I'm Steph Locke"
+    title: "a creator of great teams, meaningful products, and impactful services"
+    subtitle: "through inclusive leadership in the fundamentals and the cutting-edge of technology"
+    image: "stephlocke_400x400.jpg"
+    bottomImage:
+      enable: true
+    roundImage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/stephlocke
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/stephanielocke
+  about:
+    enable: true
+    title: "About Me"
+    image: "stephlocke_400x400.jpg"
+    content: |-
+      Add stuff here
+      f
+    skills:
+      enable: true
+      items:
+        - "Leadership"
+        - "Strategy"
+        - "Product design"
+        - "AI"
+        - "Data"
+        - "Software"
+        - "Cloud"
+  experience:
+    enable: true
+    title: "Key roles"
+    items:
+    - job: "Chair"
+      company: Nightingale HQ
+      companyUrl: "https://nightingalehq.ai"
+      date: "Feb 2022 - current"
+  education:
+    enable: true
+    title: "Key learning experiences"
+    items:
+      - title: "BA in Philosophy"
+        school:
+          name: Cardiff University
+
+  projects:
+    enable: true
+    title: Ways I've given back
+    items:
+    - title: Fundamentals of R
+      content: Written books to help people get started with R
+  
+  contact:
+    enable: true
+    title: "How to get in touch"
+    content: Reach out to me on LinkedIn or via email. I don't do phone calls due to auditory processing issues so any follow ups will be via an online platform like Teams.
+    btnName: Talk to me
+    btnLink: mailto:hi@stephlocke.com
+
+  footer:
+    recentPosts:
+      path: "blog"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/stephlocke
+      linkedin: https://linkedin.com/in/stephanielocke
+
+    # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+  read: "Read"
+  toc: "Table Of Contents"
+  copyright: "Stephanie Locke"
+  pageNotFound: "Page not found"
+  emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+  
+  cookieNotice: "🍪 This site does not use any cookies"
+ 
+  scss:
+    - "custom.scss"
+  homepageActiveSections:
+    - "/resume"
+  homepageLatestSections:
+    - "/blog"
+    - "/presenting"
+    - "/otherblogs"
+    - "/press"
+    - "/publications"
+  showcase: 2
+  ogp:
+    image: "img/NHQlogoborderless.png"
+    description: "Steph Locke"
+  twitter:
+    card: "player"
+    title: "Steph Locke"
+    site: "@theStephLocke"
+    description: "Steph's personal website"
+    image: "img/NHQlogoborderless.png"
+    image_alt: "Steph Locke"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+
+languages:
+  en:
+    weight: 1
+
+pagination:
+  pagerSize: 10
+
+
+
+module:
+  imports:
+  - path: github.com/gurusabarish/hugo-profile

@@ -31,10 +31,7 @@ An Azure Function has a few [key components](https://learn.microsoft.com/en-us/a
 - 0 or more inputs that fetch data from different sources like [CosmosDB](https://learn.microsoft.com/en-us/azure/cosmos-db/) or [Azure Table storage](https://learn.microsoft.com/en-us/azure/storage/tables/)
 - 0 or more outputs that send data to different destinations like [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/) or [Azure SQL](https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql)
 
-{{< amp-image src="AnatomyOfAFunction.png"
-layout="responsive"
-height=150
-width=300 >}}
+
 
 Behind the scenes, there will be helper files that include dependencies, [configuration settings](https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal#settings), and other things that are needed to run the Function. Multiple functions can be helped in a single project making it easy to deploy and manage related Functions.
 

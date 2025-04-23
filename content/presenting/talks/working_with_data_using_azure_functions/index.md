@@ -15,13 +15,7 @@ tags:
 Azure Functions are great for a wide range of scenarios, including working with data on a transactional or event-driven basis. In this session, we'll look at how you can interact with Azure SQL, Cosmos DB, Event Hubs, and more so you can see how you can take a lightweight but code-first approach to building APIs, integrations, ETL, and maintenance routines.
 
 ## Slides
-{{< amp-iframe 
-    height=250
-    width=500
-    src="https://www.slideshare.net/slideshow/embed_code/key/G9dDEcIWlAMpaF?hostedIn=slideshare&page=upload" 
-    layout="responsive" 
-    sandbox="allow-scripts allow-same-origin" 
->}}
+
 
 ## Presentation history
 - [March 18th 2023 @ SQLBits with Liam Moat](https://events.sqlbits.com/2023/agenda)

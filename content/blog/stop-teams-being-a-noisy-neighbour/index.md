@@ -20,14 +20,7 @@ A. Bin it! You can leave a team by clicking on the ellipsis (the ... symbol). Yo
 A. You can select the Hide team in the ellipsis (the ... symbol) to Hide the channel to add it to an easily collapsible section.
 
 
-{{<
-    amp-image src="https://c.tenor.com/yeOVFfSc4y4AAAAC/eclutter-the-life-changing-magic-of-tidying-up.gif"
-    height="250"
-    width="300"
-    layout="fixed"
-    alt="Marie Kondo saying 'Lastly, ask yourself, does it spark joy? Does is make you happy? Only keep those items that do!'"
-    attribution="https://tenor.com/"
->}} 
+
 
 ### Q. Are there a bunch of channels that you don't care about in a Team you do use regularly?
 
@@ -44,14 +37,7 @@ A. Stop! Get rid of those excess channels by clicking on the ellipsis (the ... s
 A. Convert to a Team if isn't an existing Team that the members of the chat already belong to. If there is a place all the chat members already belong to, make a channel for the discussion. Remember, Teams channels can be deleted later so this is a great option for longer term conversations.
 
 
-{{<
-    amp-image src="https://i.imgflip.com/6bn5a6.jpg"
-    height="250"
-    width="300"
-    layout="fixed"
-    alt="The common ALL THE THINGS meme with CHAT as the prefix"
-    attribution="https://imgur.com/"
->}} 
+
 
 ### Q. Are you using a chat to collaborate with multiple people outside your business on a project or on an ongoing basis?
 
@@ -61,14 +47,6 @@ A. Use a [Shared channel](https://docs.microsoft.com/en-us/MicrosoftTeams/shared
 
 A. Consider moving to synchronous communication e.g. a Teams call or meeting, to discuss more quickly.
 
-{{<
-    amp-image src="https://i.pinimg.com/736x/db/e4/9a/dbe49accbae8e6dff273e377d7828931.jpg"
-    height="250"
-    width="400"
-    layout="fixed"
-    alt="Cat overlooking a ball pen says to another cat 'Hold my calls. This could take a while.'"
-    attribution="cheezburger.com via pinterest.com"
->}} 
 
 ### Q. Are people posting weekly updates about the same thing, managing tasks, or other sort of activities that involve repeatedly restating or reusing things?
 
@@ -94,14 +72,7 @@ A. There's a number of ways to address this. One is first getting through your u
 
 A. You can mute a chat whether a standalone chat or a meeting chat by clicking on the ellipsis (the ... symbol) and selecting Mute.
 
-{{<
-    amp-image src="https://memegenerator.net/img/instances/55857270.jpg"
-    height="300"
-    width="300"
-    layout="fixed"
-    alt="Mr T saying 'Don't give me no jibber jabber!'"
-    attribution="https://memegenerator.net"
->}} 
+
 
 ### Q. Are people cross-posting everywhere?
 
@@ -121,14 +92,7 @@ A. You need to declutter and reduce notifications first so that the volume ofinc
 
 A. Expectations about urgency and message read frequency need to be set. A great way to do this is to set your status message. To set your status, select your avatar and then edit the status message. Make sure to set it to stay there for more than a day!
 
-{{<
-    amp-image src="https://i.pinimg.com/originals/43/12/ec/4312ec923954ada1af9686c86b02fd5c.png"
-    height="300"
-    width="300"
-    layout="fixed"
-    alt="'Give me a ping, Vasili. One ping only, please.' - Captain Ramius, The Hunt For Red October (1990)"
-    attribution="Pinterest"
->}} 
+
 
 
 ### Q. Are you a multi-message offender?
@@ -146,11 +110,4 @@ This post was by no means exhaustive of tips and tricks to help make remote asyn
 
 Please feel free to share your tips, trials, and tribulations with me on [Twitter](https://twitter.com/theStephLocke)!
 
-{{<
-    amp-image src="https://media3.giphy.com/media/vfN3TPt29X9HW/giphy.gif"
-    height="250"
-    width="400"
-    layout="fixed"
-    alt="Woman saying 'Butterfly fly away, spread your wings now you can't stay. Take those dreams and make them all come true.'"
-    attribution="teen.com via giphy.com"
->}} 
+

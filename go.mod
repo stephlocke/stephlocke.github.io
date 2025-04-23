@@ -1,5 +1,9 @@
-module stephlocke.github.info
+module stephlocke.github.io
 
-go 1.17
+go 1.21
 
-require github.com/stephlocke/slamp v0.0.0-20220406184934-e14707bd4bb6 // indirect
+toolchain go1.22.2
+
+require (
+	github.com/gurusabarish/hugo-profile v0.0.0-20250216102448-1fb40fd0994c // indirect
+)

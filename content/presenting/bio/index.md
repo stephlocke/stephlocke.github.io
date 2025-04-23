@@ -18,10 +18,3 @@ Steph heads up a team of digital and app innovation architects in Microsoft, hel
 - https://LinkedIn.com/in/stephanieLocke
 
 ## Images
-{{<
-    amp-image src="stephlocke_400x400.jpg"
-    height="400"
-    width="400"
-    layout="fixed"
-    alt="Steph Locke"
->}}
