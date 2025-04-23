@@ -29,7 +29,7 @@ params:
     enable: true
     intro: "Hi, I'm Steph Locke"
     title: "a creator of great teams, meaningful products, and impactful services"
-    subtitle: "through inclusive leadership in the fundamentals and the cutting-edge of technology"
+    subtitle: "through inclusive leadership and tech expertise"
     image: "stephlocke_400x400.jpg"
     bottomImage:
       enable: true
@@ -42,11 +42,19 @@ params:
           url: https://www.linkedin.com/in/stephanielocke
   about:
     enable: true
-    title: "About Me"
-    image: "stephlocke_400x400.jpg"
+    title: "About me"
     content: |-
-      Add stuff here
-      f
+      Hi, I'm Steph Locke, a creator of great teams, meaningful products, and impactful services through inclusive leadership and expertise in the fundamentals and the cutting-edge of technology.
+
+      With a career spanning over a decade, I have consistently made a difference through the teams I build and the products and services we create. My journey began with startups and evolved through significant roles at Microsoft, where I honed my inclusive leadership skills and deep technical acumen. I am passionate about driving digital transformation and leveraging AI to create innovative solutions that align with core priorities.
+
+      Currently, I serve as the Chair at Nightingale HQ, where I oversee governance and compliance, and advise on AI products that assist manufacturers in achieving Net Zero emissions. Prior to this, I led a team of pre-sales engineers at Microsoft, developing AI applications and modernisation solutions for the UK's largest organisations. My leadership expanded the team from 7 to 15 members in just eight months, ensuring high performance and diversity.
+
+      As the CEO of Nightingale HQ, I created and grew a startup focused on digital transformation programmes and no-code AI-driven process products for the manufacturing space. My efforts led to the development of a SaaS platform and AI-powered tools used by over 100 organisations. I also served as the CEO of Locke Data, where I supported organisations in delivering data science programmes and contributed to open-source initiatives.
+
+      Throughout my career, I have been a trusted advisor and thought leader, providing training and services to prestigious institutions like Microsoft, Cambridge University, and Cancer Research UK. My contributions to the field have been recognized with awards such as CEO of the Year from Welsh SME Business Awards and Most Innovative Woman in AI - UK from AI Influential Businesswoman Awards.
+
+      I am committed to fostering an inclusive culture and driving impactful change through technology. Let's connect and explore how we can create meaningful products and services together.
     skills:
       enable: true
       items:
@@ -55,16 +63,48 @@ params:
         - "Product design"
         - "AI"
         - "Data"
-        - "Software"
+        - "Software Engineering"
         - "Cloud"
   experience:
     enable: true
     title: "Key roles"
     items:
     - job: "Chair"
-      company: Nightingale HQ
-      companyUrl: "https://nightingalehq.ai"
-      date: "Feb 2022 - current"
+      company: "Nightingale HQ"
+      date: "2022 - CURRENT"
+      content: "Acting in a governance and oversight role for Nightingale HQ, helping it transition to a primarily services business supporting manufacturers in their digital transformation and data journeys."
+
+    - job: "Manager, Pre-sales engineering for UK Enterprises, Digital & App Innovation"
+      company: "Microsoft"
+      date: "JULY 2023 - APRIL 2025"
+      content: "Led a team of 15 pre-sales engineers in developing AI applications and modernisation solutions using the Microsoft technology stack for the UK’s largest organisations. Collaborated cross-functionally and across geographies with various levels of leadership to design and implement strategic sales initiatives and optimise internal processes. Served as a technical expert on AI and application topics for my team, key customers, and the broader technical community."
+
+    - job: "Manager, Customer Success for UK Industrials, Digital & App Innovation"
+      company: "Microsoft"
+      date: "MARCH 2022 - JULY 2023"
+      content: "Led a team of cloud solution architects in designing and implementing intelligent applications and software projects. Collaborated with the UK Digital & App Innovation leadership team to transition enterprise projects to delivery, optimising customer use of their teams, partners, and Microsoft tech stack."
+
+    - job: "CEO"
+      company: "Nightingale HQ"
+      date: "2019 - 2022"
+      content: "Created and grew a startup building digital transformation programmes and no-code AI-driven process products for the manufacturing space. Led the team and drove the technology strategy and implementation, as well as collaborating with customers, VCs, etc. to communicate our vision and deliver impact."
+
+    - job: "CEO"
+      company: "Locke Data"
+      date: "2017 - 2022"
+      content: "Grew a boutique, international consultancy, supporting organisations in delivering data science programmes. Assisting with everything from defining strategy and governance, through to productionising and scaling machine learning models."
+
+    - job: "Data Science and Business Intelligence roles"
+      company: "Others"
+      date: "PRIOR"
+      content: |-
+        Lead Data Scientist / Principal Consultant / BI & Risk Analytics Developer / Sr. BI Analyst / BI Analyst / BI Developer / Product Analyst
+
+        Censornet / Mango Solutions / Optimum Credit / Nemo Personal Finance / Confused.com
+
+        Building and scaling data and data science capabilities for a variety of organisations directly, or as customers.
+
+
   education:
     enable: true
     title: "Key learning experiences"
@@ -72,18 +112,61 @@ params:
       - title: "BA in Philosophy"
         school:
           name: Cardiff University
-
+      - title: "Microsoft certifications"
+        content: Microsoft Certified Trainer, Azure Solutions Architecture Expert, Data Analyst Associate, Azure Data Engineer Associate, Azure Data Scientist Associate, Azure AI Engineer Associate, Microsoft Power Apps + Dynamics 365 Developer
+        school:
+          name: Microsoft
   projects:
     enable: true
     title: Ways I've given back
     items:
     - title: Fundamentals of R
       content: Written books to help people get started with R
+      badges:
+      - R 
+      - Data
+      image: ../../ChibiSteph.svg
+      featured:
+        name: Books on Amazon
+        link: https://www.amazon.co.uk/stores/Stephanie-Locke/author/B075T85CHW
+    - title: Blogging
+      content: Over the years I've blogged extensively on technical topics
+      badges:
+      - R
+      - Data Science
+      - Data Engineering
+      - DataOps
+      image: ../../ChibiSteph.svg
+      featured:
+        name: Locke Data blog
+        link: https://itsalocke.com/blog
+    - title: Conferences
+      content: Created and supported tech community run conference brands like SatRdays, SQL Saturday, SQL Relay, and DataOpticon
+      image: "../../satRday Logo NoHexBlue.svg"
+      badges:
+      - R
+      - Data Science
+      - Data Engineering
+      - DataOps
+    - title: Open source code
+      content: I'm proud of my open source work over the years and try to incoporate it into every role
+      image: ../../dashboard_example.png
+      featured:
+        name: Tech debt analytics
+        link: https://github.com/azure/tech-debt-analytics
+      badges:
+        - R
+        - Python
+        - Bicep
+
   
   contact:
     enable: true
     title: "How to get in touch"
-    content: Reach out to me on LinkedIn or via email. I don't do phone calls due to auditory processing issues so any follow ups will be via an online platform like Teams.
+    content: |-
+      Reach out to me on LinkedIn or via email. 
+      
+      Nb I don't do phone calls due to auditory processing issues so any follow ups will be via an online platform like Teams.
     btnName: Talk to me
     btnLink: mailto:hi@stephlocke.com
 
@@ -127,27 +210,6 @@ params:
   
   cookieNotice: "🍪 This site does not use any cookies"
  
-  scss:
-    - "custom.scss"
-  homepageActiveSections:
-    - "/resume"
-  homepageLatestSections:
-    - "/blog"
-    - "/presenting"
-    - "/otherblogs"
-    - "/press"
-    - "/publications"
-  showcase: 2
-  ogp:
-    image: "img/NHQlogoborderless.png"
-    description: "Steph Locke"
-  twitter:
-    card: "player"
-    title: "Steph Locke"
-    site: "@theStephLocke"
-    description: "Steph's personal website"
-    image: "img/NHQlogoborderless.png"
-    image_alt: "Steph Locke"
 
 outputs:
   home:
