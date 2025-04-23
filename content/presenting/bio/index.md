@@ -1,20 +1,26 @@
 ---
-title: Steph Locke
+title: Steph Locke -  speaker kit
 date: 2022-07-05T09:00:00Z
 featured: true
+description: This post contains everything organisers need to put a talk on their website.
 weight: 1
 tags:
   - Presenting
 ---
+This post contains everything organisers need to put a talk on their website.
 
-## Tagline
-Data and AI technology expert for startups and enterprises
+Tagline: A leader of cutting-edge technology teams
 
 ## Bio
-Steph heads up a team of digital and app innovation architects in Microsoft, helping some of the UK's biggest organisations use the cloud to deliver more value faster. She has a broad technology background in data, AI, and software and has experience running consultancies and startups. Steph loves open source, and the impact accessible tech can have on empowering people, so she dedicates her spare time to helping others improve their use of tech. She was a Microsoft Most Valued Professional for five years in a row, she sits on the board of the SQL Saturday Foundation, and she is a co-chair for the EU SME Digital Alliance AI Focus Group.
+Steph Locke is a seasoned leader in digital transformation and AI, with extensive experience in building high-performing teams and driving impactful change. With experiences ranging from foudning a tech startup to working in a tech giant, Steph has experience of challenges across many different industries and scales. With a strong background in data & AI and inclusive leadership, Steph is committed to fostering a world where more people can drive impact through technology.
 
 ## Socials
-- https://twitter.com/thestephlocke
 - https://LinkedIn.com/in/stephanieLocke
+- https://github.com/stephlocke
 
 ## Images
+{{< figure
+  src="../../stephlocke_400x400.jpg"
+  alt="A headshot of Steph Locke"
+  class=""
+>}}
