@@ -11,16 +11,16 @@ params:
   sitename: "Steph Locke"
   title: "Steph Locke"
   description: "Steph Locke's personal website"
-  favicon: "../../icons/sl.png"
+  favicon: "../../../icons/sl.png"
   theme:
     defaultTheme: "dark"
   animate: true
   color:
     primaryColor: "#009688"
     darkmode:
-    primaryColor: "#009688"
+      primaryColor: "#009688"
   navbar:
-    brandLogo: "../../icons/sl.png"
+    brandLogo: "../../../icons/sl.png"
     brandName: "Steph Locke"
     stickyNavBar:
       enable : true
@@ -167,11 +167,9 @@ params:
     enable: true
     title: "How to get in touch"
     content: |-
-      Reach out to me on LinkedIn or via email. 
-      
-      Nb I don't do phone calls due to auditory processing issues so any follow ups will be via an online platform like Teams.
-    btnName: Talk to me
-    btnLink: mailto:hi@stephlocke.com
+      Please feel free to reach out to me via email or connect with me on LinkedIn. I am always open to discussing new opportunities, collaborations, or just having a chat about technology and leadership.
+    btnName: Speak to me
+    btnLink: https://calendly.com/stephlocke/30min
 
   footer:
     recentPosts:
